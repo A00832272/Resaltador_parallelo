@@ -1,0 +1,24 @@
+#A01235953 José Carlos de la Torre Hernandez Avenida: ICT
+#Esfera
+# Entrada
+# radio
+# Salida
+# area y volumen
+# Algoritmo
+# Solicitar radio
+# area = 4*pi*r**2
+# volumen = (4/3)*pi*r**3
+# mostrar area
+# mostrar volumen
+# Caso de prueba
+# r= 5, A=314.16, V=523.6
+import math
+
+r = float(input("Inserta Radio: "))
+area = 4*math.pi*r**2
+volumen = (4/3)*math.pi*r**3
+
+area = round(area, 2)
+volumen = round(volumen, 2)
+
+print("El Area es: ", area, "El Volumen es: ", volumen)
